@@ -8,7 +8,11 @@ const MILESTONE_YEARS = ['2012', '2015', '2018', '2021', '2024'];
 export function About() {
     const { t } = useTranslation();
     const milestoneItems = t('about.milestoneItems', { returnObjects: true }) as string[];
-    const teamMembers = t('about.teamMembers', { returnObjects: true }) as Array<{ name: string; title: string; note: string }>;
+    const teamMembers = t('about.teamMembers', { returnObjects: true }) as Array<{
+        name: string;
+        title: string;
+        note: string;
+    }>;
     return (
         <section id="about" className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
@@ -67,7 +71,9 @@ export function About() {
                                                 <div className="relative">
                                                     <div className="w-2.5 h-2.5 rounded-full bg-blue-500 border-2 border-white shadow mt-0.5 relative z-10" />
                                                 </div>
-                                                <p className="text-sm text-gray-600 flex-1 -mt-0.5">{milestoneItems[i]}</p>
+                                                <p className="text-sm text-gray-600 flex-1 -mt-0.5">
+                                                    {milestoneItems[i]}
+                                                </p>
                                             </motion.div>
                                         ))}
                                     </div>

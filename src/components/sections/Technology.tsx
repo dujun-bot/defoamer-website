@@ -21,7 +21,14 @@ const FEATURE_ICONS = [
 ];
 const FEATURE_COLORS = ['#f59e0b', '#10b981', '#8b5cf6', '#0ea5e9', '#f43f5e', '#06b6d4'];
 
-const CERTIFICATION_NAMES = ['ISO 9001:2015', 'REACH Compliant', 'RoHS Compliant', 'NP / APEO Free', 'SVHC Free', 'SDS Available'];
+const CERTIFICATION_NAMES = [
+    'ISO 9001:2015',
+    'REACH Compliant',
+    'RoHS Compliant',
+    'NP / APEO Free',
+    'SVHC Free',
+    'SDS Available',
+];
 
 export function Technology() {
     const { t } = useTranslation();
