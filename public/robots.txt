@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+# TODO: Replace sinofoam.com with your actual domain after custom domain setup
+Sitemap: https://sinofoam.com/sitemap.xml
