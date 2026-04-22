@@ -74,6 +74,50 @@ section[id] {
   margin-bottom: 16px;
 }
 
+/* Dark-theme contact form: input & select selector */
+.contact-form .ant-input,
+.contact-form .ant-input-affix-wrapper,
+.contact-form .ant-select-selector {
+  background: rgba(255,255,255,0.12) !important;
+  border-color: rgba(255,255,255,0.18) !important;
+  color: #fff !important;
+}
+.contact-form .ant-input::placeholder,
+.contact-form .ant-input-affix-wrapper input::placeholder {
+  color: rgba(255,255,255,0.45) !important;
+}
+.contact-form .ant-select-selection-placeholder {
+  color: rgba(255,255,255,0.45) !important;
+}
+.contact-form .ant-select-selection-item {
+  color: #fff !important;
+}
+.contact-form .ant-input:focus,
+.contact-form .ant-select-focused .ant-select-selector {
+  border-color: rgba(96,165,250,0.6) !important;
+  box-shadow: 0 0 0 2px rgba(96,165,250,0.15) !important;
+}
+
+/* Dark-theme contact form: dropdown popup */
+.contact-dropdown {
+  background: #1e2d45 !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 12px !important;
+}
+.contact-dropdown .ant-select-item {
+  color: #cbd5e1 !important;
+  border-radius: 8px !important;
+}
+.contact-dropdown .ant-select-item:hover,
+.contact-dropdown .ant-select-item-option-active {
+  background: rgba(96,165,250,0.15) !important;
+  color: #fff !important;
+}
+.contact-dropdown .ant-select-item-option-selected {
+  background: rgba(96,165,250,0.25) !important;
+  color: #fff !important;
+}
+
 /* Bubble rise animation for Hero */
 @keyframes bubbleRise {
   0% {

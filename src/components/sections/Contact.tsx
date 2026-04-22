@@ -125,8 +125,8 @@ export function Contact() {
     };
 
     const inputStyle = {
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.12)',
+        background: 'rgba(255,255,255,0.12)',
+        border: '1px solid rgba(255,255,255,0.18)',
         color: 'white',
         borderRadius: '12px',
     };
@@ -296,10 +296,8 @@ export function Contact() {
                                             size="large"
                                             options={PRODUCTS.map((p) => ({ value: p, label: p }))}
                                             style={{ borderRadius: 12 }}
-                                            dropdownStyle={{
-                                                background: '#1e293b',
-                                                border: '1px solid rgba(255,255,255,0.1)',
-                                            }}
+                                            popupClassName="contact-dropdown"
+                                            dropdownStyle={{ borderRadius: 12 }}
                                         />
                                     </Form.Item>
 
