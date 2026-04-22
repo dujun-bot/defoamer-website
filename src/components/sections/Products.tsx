@@ -64,9 +64,7 @@ function ProductCard({ product, index }: { product: Product; index: number }) {
                     }}
                 >
                     <div className="flex items-start justify-between gap-2 mb-2">
-                        <span
-                            className={`px-3 py-1 rounded-full text-sm font-semibold ${tc.badgeBg} ${tc.badgeText}`}
-                        >
+                        <span className={`px-3 py-1 rounded-full text-sm font-semibold ${tc.badgeBg} ${tc.badgeText}`}>
                             {t(`products.typeLabels.${tc.typeKey}`)}
                         </span>
                         {product.badge && (

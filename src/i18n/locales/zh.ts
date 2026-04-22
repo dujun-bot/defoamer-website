@@ -20,8 +20,8 @@ export const zh = {
     },
     hero: {
         badge: '工业级消泡解决方案',
-        line1: '控制泡沫。',
-        line2: '提升品质。',
+        line1: '控制泡沫',
+        line2: '提升品质',
         subtitle: 'SinoFoam Technology 提供精密工程有机硅、聚醚和脂肪醇消泡剂，受到全球 50+ 国家制造商的信赖。',
         cta1: '探索产品',
         cta2: '申请免费样品 →',
