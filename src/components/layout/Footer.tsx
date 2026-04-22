@@ -58,24 +58,24 @@ export function Footer() {
                         <p className="mt-4 text-sm leading-relaxed text-gray-500 max-w-xs">{t('footer.tagline')}</p>
                         <div className="mt-6 space-y-2.5 text-sm">
                             <a
-                                href="mailto:info@sinofoam-tech.com"
+                                href="mailto:duziteng1987@gmail.com"
                                 className="flex items-center gap-2.5 hover:text-blue-400 transition-colors"
                             >
-                                <MailOutlined /> info@sinofoam-tech.com
+                                <MailOutlined /> duziteng1987@gmail.com
                             </a>
                             <a
-                                href="tel:+864008001234"
+                                href="tel:+8613051584110"
                                 className="flex items-center gap-2.5 hover:text-blue-400 transition-colors"
                             >
-                                <PhoneOutlined /> +86 400-800-1234
+                                <PhoneOutlined /> +86 130-5158-4110
                             </a>
                             <a
-                                href="https://wa.me/8613800001234"
+                                href="https://wa.me/8613051584110"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2.5 hover:text-green-400 transition-colors"
                             >
-                                <WhatsAppOutlined /> +86 138-0000-1234
+                                <WhatsAppOutlined /> +86 130-5158-4110
                             </a>
                             <div className="flex items-start gap-2.5">
                                 <EnvironmentOutlined className="mt-0.5 shrink-0" />
