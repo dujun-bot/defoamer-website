@@ -23,32 +23,32 @@ const PRODUCTS = [
     'Full Catalog Request',
 ];
 
-const CONTACT_INFO = [
+const CONTACT_INFO_BASE = [
     {
         icon: <MailOutlined />,
-        label: 'Email',
+        labelKey: 'contact.info.email',
         value: 'duziteng1987@gmail.com',
         href: 'mailto:duziteng1987@gmail.com',
         color: '#60a5fa',
     },
     {
         icon: <PhoneOutlined />,
-        label: 'Phone',
+        labelKey: 'contact.info.phone',
         value: '+86 130-5158-4110',
         href: 'tel:+8613051584110',
-        color: '#34d399',
+        color: '#60a5fa',
     },
     {
         icon: <WhatsAppOutlined />,
-        label: 'WhatsApp',
+        labelKey: 'contact.info.whatsapp',
         value: '+86 130-5158-4110',
         href: 'https://wa.me/8613051584110',
         color: '#4ade80',
     },
     {
         icon: <EnvironmentOutlined />,
-        label: 'Address',
-        value: 'No. 88 Chemical Industry Park, Yangzhou, Jiangsu 225001, China',
+        labelKey: 'contact.info.address',
+        valueKey: 'contact.info.addressValue',
         href: undefined,
         color: '#f9a8d4',
     },
@@ -56,6 +56,11 @@ const CONTACT_INFO = [
 
 export function Contact() {
     const { t } = useTranslation();
+    const contactInfo = CONTACT_INFO_BASE.map((item) => ({
+        ...item,
+        label: t(item.labelKey),
+        value: 'valueKey' in item ? t(item.valueKey as string) : item.value,
+    }));
     const [form] = Form.useForm<ContactFormValues>();
     const [loading, setLoading] = useState(false);
     const [sent, setSent] = useState(false);
@@ -150,7 +155,7 @@ export function Contact() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 mt-14">
                     <div className="lg:col-span-2 space-y-4">
-                        {CONTACT_INFO.map((info, i) => (
+                        {contactInfo.map((info, i) => (
                             <AnimatedSection key={info.label} delay={i * 0.08} direction="left">
                                 {info.href ? (
                                     <a

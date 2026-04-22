@@ -249,6 +249,14 @@ export const zh = {
             title: '质量与合规',
             subtitle: '提供按需文件，受全球出口客户信赖。',
         },
+        certificationSubs: [
+            '质量管理体系',
+            '欧盟化学品安全',
+            '有害物质限制',
+            '环保配方',
+            'REACH附录XVII',
+            '完整技术文件',
+        ],
     },
     about: {
         badge: '关于我们',
@@ -312,6 +320,13 @@ export const zh = {
             title: '消息已发送！',
             subtitle: '感谢您的来信，我们将在24小时内回复。',
             sendAnother: '再发一条消息',
+        },
+        info: {
+            email: '电子邮箱',
+            phone: '电话',
+            whatsapp: 'WhatsApp',
+            address: '地址',
+            addressValue: '中国江苏省扬州市化工园区88号，邮编225001',
         },
     },
     footer: {

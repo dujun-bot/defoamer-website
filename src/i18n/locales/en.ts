@@ -267,6 +267,14 @@ export const en = {
             title: 'Quality & Compliance',
             subtitle: 'Documentation provided upon request. Trusted by export customers worldwide.',
         },
+        certificationSubs: [
+            'Quality Management',
+            'EU Chemical Safety',
+            'Hazardous Substances',
+            'Eco-Friendly Formula',
+            'REACH Annex XVII',
+            'Full Documentation',
+        ],
     },
     about: {
         badge: 'About Us',
@@ -332,6 +340,13 @@ export const en = {
             title: 'Message Sent!',
             subtitle: 'Thank you. Our team will respond within 24 hours.',
             sendAnother: 'Send Another Message',
+        },
+        info: {
+            email: 'Email',
+            phone: 'Phone',
+            whatsapp: 'WhatsApp',
+            address: 'Address',
+            addressValue: 'No. 88 Chemical Industry Park, Yangzhou, Jiangsu 225001, China',
         },
     },
     footer: {

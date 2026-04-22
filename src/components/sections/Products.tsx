@@ -237,7 +237,7 @@ export function Products() {
                         className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-gray-200 bg-white text-gray-700 font-medium text-sm hover:border-blue-300 hover:text-blue-600 transition-all duration-200 hover:shadow-sm"
                     >
                         <FileTextOutlined />
-                        Request Full Product Catalog + SDS
+                        {t('common.requestCatalog')}
                     </a>
                 </AnimatedSection>
             </div>

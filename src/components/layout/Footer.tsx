@@ -79,7 +79,7 @@ export function Footer() {
                             </a>
                             <div className="flex items-start gap-2.5">
                                 <EnvironmentOutlined className="mt-0.5 shrink-0" />
-                                <span>No. 88 Chemical Industry Park, Yangzhou, Jiangsu 225001, China</span>
+                                <span>{t('contact.info.addressValue')}</span>
                             </div>
                         </div>
                     </div>

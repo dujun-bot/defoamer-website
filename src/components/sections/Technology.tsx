@@ -21,17 +21,11 @@ const FEATURE_ICONS = [
 ];
 const FEATURE_COLORS = ['#f59e0b', '#10b981', '#8b5cf6', '#0ea5e9', '#f43f5e', '#06b6d4'];
 
-const CERTIFICATIONS = [
-    { name: 'ISO 9001:2015', sub: 'Quality Management' },
-    { name: 'REACH Compliant', sub: 'EU Chemical Safety' },
-    { name: 'RoHS Compliant', sub: 'Hazardous Substances' },
-    { name: 'NP / APEO Free', sub: 'Eco-Friendly Formula' },
-    { name: 'SVHC Free', sub: 'REACH Annex XVII' },
-    { name: 'SDS Available', sub: 'Full Documentation' },
-];
+const CERTIFICATION_NAMES = ['ISO 9001:2015', 'REACH Compliant', 'RoHS Compliant', 'NP / APEO Free', 'SVHC Free', 'SDS Available'];
 
 export function Technology() {
     const { t } = useTranslation();
+    const certSubs = t('technology.certificationSubs', { returnObjects: true }) as string[];
     return (
         <section
             id="technology"
@@ -89,13 +83,13 @@ export function Technology() {
                             <p className="text-gray-400 text-sm mt-1">{t('technology.quality.subtitle')}</p>
                         </div>
                         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-                            {CERTIFICATIONS.map((cert) => (
+                            {CERTIFICATION_NAMES.map((name, i) => (
                                 <div
-                                    key={cert.name}
+                                    key={name}
                                     className="text-center p-4 rounded-xl border border-white/8 hover:border-blue-400/30 transition-colors"
                                 >
-                                    <div className="text-sm font-bold text-white">{cert.name}</div>
-                                    <div className="text-[11px] text-gray-500 mt-0.5">{cert.sub}</div>
+                                    <div className="text-sm font-bold text-white">{name}</div>
+                                    <div className="text-[11px] text-gray-500 mt-0.5">{certSubs[i]}</div>
                                 </div>
                             ))}
                         </div>
