@@ -3,34 +3,12 @@ import { useTranslation } from 'react-i18next';
 import { SectionTitle } from '../ui/SectionTitle';
 import { AnimatedSection } from '../ui/AnimatedSection';
 
-const MILESTONES = [
-    { year: '2012', event: 'Founded with focus on specialty defoamer chemistry' },
-    { year: '2015', event: 'ISO 9001 certification achieved; first export contracts' },
-    { year: '2018', event: 'SX series silicone emulsion line launched' },
-    { year: '2021', event: 'Expanded to 200+ product variants and 30+ countries' },
-    { year: '2024', event: 'REACH compliance across full product range certified' },
-];
-
-const TEAM = [
-    {
-        name: 'Dr. Wei Liu',
-        title: 'Chief Technology Officer',
-        note: 'PhD Chemistry, 15 years in surfactant & defoamer R&D',
-    },
-    {
-        name: 'Ms. Sarah Chen',
-        title: 'International Sales Director',
-        note: 'Fluent English/French; 10 years export chemical trade',
-    },
-    {
-        name: 'Mr. James Zhang',
-        title: 'QA & Compliance Manager',
-        note: 'Specialist in REACH, RoHS, and export regulatory affairs',
-    },
-];
+const MILESTONE_YEARS = ['2012', '2015', '2018', '2021', '2024'];
 
 export function About() {
     const { t } = useTranslation();
+    const milestoneItems = t('about.milestoneItems', { returnObjects: true }) as string[];
+    const teamMembers = t('about.teamMembers', { returnObjects: true }) as Array<{ name: string; title: string; note: string }>;
     return (
         <section id="about" className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
@@ -74,9 +52,9 @@ export function About() {
                                 <div className="relative">
                                     <div className="absolute left-[52px] top-0 bottom-0 w-px bg-gray-200" />
                                     <div className="space-y-5">
-                                        {MILESTONES.map((m, i) => (
+                                        {MILESTONE_YEARS.map((year, i) => (
                                             <motion.div
-                                                key={m.year}
+                                                key={year}
                                                 initial={{ opacity: 0, x: 20 }}
                                                 whileInView={{ opacity: 1, x: 0 }}
                                                 viewport={{ once: true }}
@@ -84,12 +62,12 @@ export function About() {
                                                 className="flex items-start gap-4"
                                             >
                                                 <div className="w-[44px] text-right shrink-0">
-                                                    <span className="text-xs font-bold text-blue-600">{m.year}</span>
+                                                    <span className="text-xs font-bold text-blue-600">{year}</span>
                                                 </div>
                                                 <div className="relative">
                                                     <div className="w-2.5 h-2.5 rounded-full bg-blue-500 border-2 border-white shadow mt-0.5 relative z-10" />
                                                 </div>
-                                                <p className="text-sm text-gray-600 flex-1 -mt-0.5">{m.event}</p>
+                                                <p className="text-sm text-gray-600 flex-1 -mt-0.5">{milestoneItems[i]}</p>
                                             </motion.div>
                                         ))}
                                     </div>
@@ -102,7 +80,7 @@ export function About() {
                             <div>
                                 <h3 className="font-bold text-gray-900 mb-4">{t('about.team')}</h3>
                                 <div className="space-y-3">
-                                    {TEAM.map((member) => (
+                                    {teamMembers.map((member) => (
                                         <div
                                             key={member.name}
                                             className="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:border-blue-100 hover:bg-blue-50/30 transition-colors"

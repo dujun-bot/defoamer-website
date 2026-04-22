@@ -282,7 +282,19 @@ export const en = {
             markets: { label: 'Export Markets', value: '50+ Countries' },
         },
         milestones: 'Company Milestones',
+        milestoneItems: [
+            'Founded with focus on specialty defoamer chemistry',
+            'ISO 9001 certification achieved; first export contracts',
+            'SX series silicone emulsion line launched',
+            'Expanded to 200+ product variants and 30+ countries',
+            'REACH compliance across full product range certified',
+        ],
         team: 'Our Team',
+        teamMembers: [
+            { name: 'Dr. Wei Liu', title: 'Chief Technology Officer', note: 'PhD Chemistry, 15 years in surfactant & defoamer R&D' },
+            { name: 'Ms. Sarah Chen', title: 'International Sales Director', note: 'Fluent English/French; 10 years export chemical trade' },
+            { name: 'Mr. James Zhang', title: 'QA & Compliance Manager', note: 'Specialist in REACH, RoHS, and export regulatory affairs' },
+        ],
     },
     contact: {
         badge: 'Get In Touch',

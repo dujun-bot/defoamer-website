@@ -264,11 +264,23 @@ export const zh = {
             markets: { label: '出口市场', value: '50+ 个国家' },
         },
         milestones: '公司里程碑',
+        milestoneItems: [
+            '创立，专注特种消泡剂化学研究',
+            '获得ISO 9001认证，首批出口合同签订',
+            'SX系列有机硅乳液产品线正式上线',
+            '产品品种扩展至200+，出口国家超30个',
+            '全产品系列完成REACH合规认证',
+        ],
         team: '我们的团队',
+        teamMembers: [
+            { name: 'Dr. Wei Liu', title: '首席技术官', note: '化学博士，15年表面活性剂与消泡剂研发经验' },
+            { name: 'Ms. Sarah Chen', title: '国际销售总监', note: '英法双语流利，10年化工出口贸易经验' },
+            { name: 'Mr. James Zhang', title: '质量与合规经理', note: 'REACH、RoHS及出口法规事务专家' },
+        ],
     },
     contact: {
         badge: '联系我们',
-        title: '申请样品，',
+        title: '申请样品',
         titleAccent: '开始询价',
         subtitle: '请告诉我们您的应用详情，我们将推荐合适的消泡剂——附带用量指导、技术数据及适用时的免费样品。',
         fastResponse: {
