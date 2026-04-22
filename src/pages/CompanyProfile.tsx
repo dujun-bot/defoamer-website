@@ -35,6 +35,14 @@ export function CompanyProfile({ onNavigate }: CompanyProfileProps) {
 
     const stats = ['years', 'series', 'varieties', 'countries', 'capacity'] as const;
 
+    const handleBackToHome = () => {
+        onNavigate('home');
+        // Scroll to top after navigation
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 0);
+    };
+
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Hero */}
@@ -111,7 +119,7 @@ export function CompanyProfile({ onNavigate }: CompanyProfileProps) {
                 <div className="text-center">
                     <button
                         type="button"
-                        onClick={() => onNavigate('home')}
+                        onClick={handleBackToHome}
                         className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all duration-200 hover:scale-105 active:scale-95 shadow-sm"
                     >
                         <ArrowLeftOutlined />

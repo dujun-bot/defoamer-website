@@ -48,11 +48,11 @@ function AppCard({ app, index }: { app: Application; index: number }) {
                 </p>
 
                 {/* Product tags */}
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-2">
                     {app.products.map((p) => (
                         <span
                             key={p}
-                            className="px-2 py-0.5 text-[11px] font-semibold rounded-full"
+                            className="px-3 py-1 text-xs font-semibold rounded-full"
                             style={{
                                 background: `${app.iconBg}18`,
                                 color: app.iconBg,
