@@ -123,10 +123,10 @@ export const de = {
                 description:
                     'Schaumkontrolle in Weißwassersystemen, Zellstoffherstellung und Oberflächenleimung. CS- und SX-Serien werden mit echtem Papierfabrik-Weißwasser bei Prozesstemperaturen getestet.',
             },
-            'industrial-cleaning': {
-                name: 'Industriereinigung',
+            'daily-chemicals': {
+                name: 'Tageschemikalien',
                 description:
-                    'Vermeidung von Schaumüberlauf in alkalischen Reinigern, Stahlblechwaschmaschinen und CIP-Systemen. SX-230 und SX-460 liefern schnelle und anhaltende Kontrolle bei hohen Scherbedingungen.',
+                    'Effektive Entschäumung bei der Emulgierung, Mischung und Abfüllung von Reinigungsmitteln, Kosmetika und Körperpflegeprodukten. SX-530 und SX-230 sind für tensidbasierte Tageschemikalien-Formulierungssysteme geeignet.',
             },
             metalworking: {
                 name: 'Metallbearbeitungsflüssigkeiten',
@@ -138,15 +138,15 @@ export const de = {
                 description:
                     'Schnelle Schaumkontrolle in Belüftungsbecken, biologischen Kläranlagen und Sickerwasseraufbereitung. S-2060 mit >70 ml/s Entschäumungsrate meistert anspruchsvollste Bedingungen.',
             },
-            fermentation: {
-                name: 'Fermentation und Lebensmittel',
+            coatings: {
+                name: 'Lacke und Farben',
                 description:
-                    'Schaumunterdrückung in der Zuckerverarbeitung, Fermentationsbehältern und lebensmittelechten wässrigen Systemen. CS-2020 arbeitet im gesamten Fermentationstemperaturbereich (20–120°C).',
+                    'Schaumkontrolle bei der Herstellung von Wasserbasislacken, Latexfarben und Architekturfarben. SX-530 und SX-460 bieten hervorragende Entschäumung und Schauminhibierung in wasserbasigen Dispersionssystemen.',
             },
-            desulfurization: {
-                name: 'Kraftwerk-Entschwefelung',
+            petroleum: {
+                name: 'Petroleum und Energie',
                 description:
-                    'Hocheffiziente Entschäumung in Nass-Rauchgasentschwefelungssystemen (REA) unter alkalischen Schlammverhältnissen. SX-460 arbeitet zuverlässig bei pH 12+.',
+                    'Hocheffiziente Entschäumung bei der Erdölförderung, Raffination und Kraftstoff-Entschwefelung. SX-460 arbeitet stabil in stark alkalischen und Hochtemperaturumgebungen und eignet sich für Nass-FGD-Entschwefelungssysteme.',
             },
             construction: {
                 name: 'Bauchemikalien',

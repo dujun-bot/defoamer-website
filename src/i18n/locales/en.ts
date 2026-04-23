@@ -188,10 +188,10 @@ export const en = {
                 description:
                     'Control foam in white water systems, pulping, and surface sizing. Our CS and SX series are tested with real paper industry white water at process temperatures.',
             },
-            'industrial-cleaning': {
-                name: 'Industrial Cleaning',
+            'daily-chemicals': {
+                name: 'Daily Chemicals',
                 description:
-                    'Prevent foam overflow in alkaline cleaners, steel plate washers, and CIP systems. SX-230 and SX-460 deliver fast and sustained control under high-shear conditions.',
+                    'Effective defoaming in the emulsification, mixing, and filling of detergents, cosmetics, and personal care products. SX-530 and SX-230 are suited for surfactant-based daily chemical formulation systems.',
             },
             metalworking: {
                 name: 'Metalworking Fluids',
@@ -203,15 +203,15 @@ export const en = {
                 description:
                     'Fast-acting foam control in aeration tanks, biological treatment systems, and leachate processing. S-2060 with >70 ml/s defoaming speed handles the most demanding conditions.',
             },
-            fermentation: {
-                name: 'Fermentation & Food',
+            coatings: {
+                name: 'Coatings & Paints',
                 description:
-                    'Suppress foam in sugar processing, fermentation tanks, and food-grade aqueous systems. CS-2020 works across the full fermentation temperature range (20–120°C).',
+                    'Control foam in water-based coatings, latex paints, and architectural coatings production. SX-530 and SX-460 provide excellent defoaming and foam inhibition in waterborne dispersion systems.',
             },
-            desulfurization: {
-                name: 'Power Plant Desulfurization',
+            petroleum: {
+                name: 'Petroleum & Energy',
                 description:
-                    'High-efficiency defoaming in wet flue-gas desulfurization (FGD) systems under alkaline slurry conditions. SX-460 performs reliably at pH 12+.',
+                    'High-efficiency defoaming in petroleum extraction, refining, and fuel desulfurization. SX-460 performs reliably at pH 12+ in high-temperature alkaline environments, suitable for wet FGD systems.',
             },
             construction: {
                 name: 'Construction Chemicals',

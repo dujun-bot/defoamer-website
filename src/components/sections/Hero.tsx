@@ -161,7 +161,7 @@ export function Hero() {
                 {/* Subtext */}
                 <motion.p
                     variants={itemVariants}
-                    className="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed"
+                    className="mt-6 text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed"
                 >
                     {t('hero.subtitle')}
                 </motion.p>

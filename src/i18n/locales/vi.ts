@@ -123,10 +123,10 @@ export const vi = {
                 description:
                     'Kiểm soát bọt trong hệ thống nước trắng, nghiền bột và phủ bề mặt. Dòng CS và SX được thử nghiệm với nước trắng ngành giấy thực tế ở nhiệt độ quy trình.',
             },
-            'industrial-cleaning': {
-                name: 'Làm Sạch Công Nghiệp',
+            'daily-chemicals': {
+                name: 'Hóa Chất Hàng Ngày',
                 description:
-                    'Ngăn chặn tràn bọt trong chất tẩy kiềm, máy rửa tấm thép và hệ thống CIP. SX-230 và SX-460 cung cấp kiểm soát nhanh và bền vững trong điều kiện cắt cao.',
+                    'Phá bọt hiệu quả trong các quá trình nhũ hóa, trộn và đóng gói chất tẩy rửa, mỹ phẩm và sản phẩm chăm sóc cá nhân. SX-530 và SX-230 thích hợp cho các hệ thống công thức hóa chất hàng ngày dựa trên chất hoạt động bề mặt.',
             },
             metalworking: {
                 name: 'Chất Lỏng Gia Công Kim Loại',
@@ -138,15 +138,15 @@ export const vi = {
                 description:
                     'Kiểm soát bọt nhanh trong bể thông khí, hệ thống xử lý sinh học và xử lý nước rác. S-2060 với tốc độ phá bọt >70 ml/s xử lý các điều kiện khắc nghiệt nhất.',
             },
-            fermentation: {
-                name: 'Lên Men & Thực Phẩm',
+            coatings: {
+                name: 'Sơn & Phủ Bề Mặt',
                 description:
-                    'Kiểm soát bọt trong chế biến đường, bể lên men và hệ thống nước thực phẩm. CS-2020 hoạt động trong toàn bộ phạm vi nhiệt độ lên men (20–120°C).',
+                    'Kiểm soát bọt trong sản xuất sơn phủ gốc nước, sơn latex và sơn kiến trúc. SX-530 và SX-460 cung cấp khả năng phá bọt và ức chế bọt xuất sắc trong các hệ thống phân tán gốc nước.',
             },
-            desulfurization: {
-                name: 'Khử Lưu Huỳnh Nhà Máy Điện',
+            petroleum: {
+                name: 'Dầu Mỏ & Năng Lượng',
                 description:
-                    'Phá bọt hiệu quả cao trong hệ thống khử lưu huỳnh khói thải ướt (FGD) trong điều kiện bùn kiềm. SX-460 hoạt động đáng tin cậy ở pH 12+.',
+                    'Phá bọt hiệu quả cao trong khai thác dầu mỏ, lọc dầu và khử lưu huỳnh nhiên liệu. SX-460 hoạt động ổn định trong môi trường kiềm cao và nhiệt độ cao (pH 12+), phù hợp với hệ thống khử lưu huỳnh FGD ướt.',
             },
             construction: {
                 name: 'Hóa Chất Xây Dựng',

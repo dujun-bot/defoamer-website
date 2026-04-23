@@ -122,10 +122,10 @@ export const id = {
                 description:
                     'Kendalikan busa dalam sistem air putih, pulping, dan surface sizing. Seri CS dan SX diuji dengan air putih industri kertas nyata pada suhu proses.',
             },
-            'industrial-cleaning': {
-                name: 'Pembersihan Industri',
+            'daily-chemicals': {
+                name: 'Kimia Harian',
                 description:
-                    'Cegah luapan busa dalam pembersih alkali, mesin cuci pelat baja, dan sistem CIP. SX-230 dan SX-460 memberikan kontrol cepat dan berkelanjutan dalam kondisi geser tinggi.',
+                    'Defoaming efektif dalam proses emulsifikasi, pencampuran, dan pengisian detergen, kosmetik, dan produk perawatan pribadi. SX-530 dan SX-230 cocok untuk sistem formulasi kimia harian berbasis surfaktan.',
             },
             metalworking: {
                 name: 'Cairan Pengerjaan Logam',
@@ -137,15 +137,15 @@ export const id = {
                 description:
                     'Kontrol busa cepat di tangki aerasi, sistem pengolahan biologis, dan pemrosesan lindi. S-2060 dengan kecepatan defoaming >70 ml/s menangani kondisi paling menantang.',
             },
-            fermentation: {
-                name: 'Fermentasi & Pangan',
+            coatings: {
+                name: 'Coating & Cat',
                 description:
-                    'Kendalikan busa dalam pengolahan gula, tangki fermentasi, dan sistem air kelas pangan. CS-2020 bekerja di seluruh rentang suhu fermentasi (20–120°C).',
+                    'Kendalikan busa dalam produksi coating berbasis air, cat lateks, dan cat arsitektur. SX-530 dan SX-460 memberikan defoaming dan penghambatan busa yang sangat baik dalam sistem dispersi waterborne.',
             },
-            desulfurization: {
-                name: 'Desulfurisasi Pembangkit Listrik',
+            petroleum: {
+                name: 'Minyak & Energi',
                 description:
-                    'Defoaming efisiensi tinggi dalam sistem desulfurisasi gas buang basah (FGD) dalam kondisi slurry alkali. SX-460 bekerja andal pada pH 12+.',
+                    'Defoaming efisiensi tinggi dalam ekstraksi minyak bumi, pengilangan, dan desulfurisasi bahan bakar. SX-460 berkinerja stabil di lingkungan sangat alkali dan suhu tinggi (pH 12+), cocok untuk sistem desulfurisasi FGD basah.',
             },
             construction: {
                 name: 'Bahan Kimia Konstruksi',

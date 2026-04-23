@@ -9,15 +9,17 @@ export const applications: Application[] = [
         products: ['SX-530', 'CS-300H', 'CS-300L', 'CS-300CD'],
         bgColor: '#f0f9ff',
         iconBg: '#0ea5e9',
+        image: '/images/industries/paper-pulp.jpg',
     },
     {
-        id: 'industrial-cleaning',
-        name: 'Industrial Cleaning',
+        id: 'daily-chemicals',
+        name: 'Daily Chemicals',
         description:
-            'Prevent foam overflow in alkaline cleaners, steel plate washers, and CIP systems. SX-230 and SX-460 deliver fast and sustained control under high-shear conditions.',
-        products: ['SX-230', 'SX-460', 'S-2060'],
+            'Effective defoaming in the emulsification, mixing, and filling of detergents, cosmetics, and personal care products. SX-530 and SX-230 are suited for surfactant-based daily chemical formulation systems.',
+        products: ['SX-530', 'SX-230', 'S-2060'],
         bgColor: '#fef9ec',
         iconBg: '#f59e0b',
+        image: '/images/industries/daily-chemicals.jpg',
     },
     {
         id: 'metalworking',
@@ -27,6 +29,7 @@ export const applications: Application[] = [
         products: ['SX-230', 'SX-460'],
         bgColor: '#f0fdf4',
         iconBg: '#22c55e',
+        image: '/images/industries/metalworking.jpg',
     },
     {
         id: 'wastewater',
@@ -36,24 +39,27 @@ export const applications: Application[] = [
         products: ['S-2060', 'CS-2020', 'CS-1401'],
         bgColor: '#f5f3ff',
         iconBg: '#8b5cf6',
+        image: '/images/industries/wastewater.jpg',
     },
     {
-        id: 'fermentation',
-        name: 'Fermentation & Food',
+        id: 'coatings',
+        name: 'Coatings & Paints',
         description:
-            'Suppress foam in sugar processing, fermentation tanks, and food-grade aqueous systems. CS-2020 works across the full fermentation temperature range (20–120°C).',
-        products: ['CS-2020'],
+            'Control foam in water-based coatings, latex paints, and architectural coatings production. SX-530 and SX-460 provide excellent defoaming and foam inhibition in waterborne dispersion systems.',
+        products: ['SX-530', 'SX-460', 'SX-230'],
         bgColor: '#fff1f2',
         iconBg: '#ef4444',
+        image: '/images/industries/coatings.jpg',
     },
     {
-        id: 'desulfurization',
-        name: 'Power Plant Desulfurization',
+        id: 'petroleum',
+        name: 'Petroleum & Energy',
         description:
-            'High-efficiency defoaming in wet flue-gas desulfurization (FGD) systems under alkaline slurry conditions. SX-460 performs reliably at pH 12+.',
+            'High-efficiency defoaming in petroleum extraction, refining, and fuel desulfurization. SX-460 performs reliably at pH 12+ in high-temperature alkaline environments, suitable for wet FGD systems.',
         products: ['SX-460'],
         bgColor: '#ecfdf5',
         iconBg: '#10b981',
+        image: '/images/industries/petroleum.jpg',
     },
     {
         id: 'construction',
@@ -63,6 +69,7 @@ export const applications: Application[] = [
         products: ['SX-460', 'CS-2020'],
         bgColor: '#fff7ed',
         iconBg: '#f97316',
+        image: '/images/industries/construction.jpg',
     },
     {
         id: 'textiles',
@@ -72,6 +79,7 @@ export const applications: Application[] = [
         products: ['SX-230', 'SX-530'],
         bgColor: '#fdf4ff',
         iconBg: '#d946ef',
+        image: '/images/industries/textiles.jpg',
     },
 ];
 

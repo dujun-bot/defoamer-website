@@ -123,10 +123,10 @@ export const tr = {
                 description:
                     'Beyaz su sistemleri, hamur yapımı ve yüzey boyutlandırmada köpüğü kontrol edin. CS ve SX serisi proses sıcaklıklarında gerçek kağıt endüstrisi beyaz suyla test edilmiştir.',
             },
-            'industrial-cleaning': {
-                name: 'Endüstriyel Temizleme',
+            'daily-chemicals': {
+                name: 'Günlük Kimyasallar',
                 description:
-                    'Alkali temizleyicilerde, çelik levha yıkayıcılarda ve CIP sistemlerinde köpük taşmasını önleyin. SX-230 ve SX-460 yüksek kesme koşullarında hızlı ve sürekli kontrol sağlar.',
+                    'Deterjanlar, kozmetikler ve kişisel bakım ürünlerinin emülsifikasyon, karıştırma ve doldurma süreçlerinde etkili köpük giderme. SX-530 ve SX-230, yüzey aktif madde bazlı günlük kimyasal formülasyon sistemlerine uygundur.',
             },
             metalworking: {
                 name: 'Metal İşleme Sıvıları',
@@ -138,15 +138,15 @@ export const tr = {
                 description:
                     'Havalandırma tanklarında, biyolojik arıtma sistemlerinde ve sızıntı suyu işlemede hızlı köpük kontrolü. >70 ml/s köpük giderme hızıyla S-2060 en zorlu koşulları karşılar.',
             },
-            fermentation: {
-                name: 'Fermantasyon ve Gıda',
+            coatings: {
+                name: 'Boya ve Kaplama',
                 description:
-                    'Şeker işlemede, fermantasyon tanklarında ve gıda sınıfı sulu sistemlerde köpüğü bastırın. CS-2020 tam fermantasyon sıcaklık aralığında (20–120°C) çalışır.',
+                    'Su bazlı kaplamalar, lateks boyalar ve mimari kaplamaların üretiminde köpüğü kontrol edin. SX-530 ve SX-460, su bazlı dispersiyon sistemlerinde mükemmel köpük giderme ve köpük inhibisyonu sağlar.',
             },
-            desulfurization: {
-                name: 'Elektrik Santrali Desülfürizasyon',
+            petroleum: {
+                name: 'Petrol ve Enerji',
                 description:
-                    'Alkali çamur koşullarında ıslak baca gazı desülfürizasyon (FGD) sistemlerinde yüksek verimli köpük giderme. SX-460 pH 12+ de güvenilir performans gösterir.',
+                    'Petrol çıkarma, rafineri ve yakıt kükürt giderme işlemlerinde yüksek verimli köpük giderme. SX-460, yüksek alkali ve yüksek sıcaklık ortamlarında (pH 12+) kararlı performans gösterir, ıslak FGD kükürt giderme sistemleri için uygundur.',
             },
             construction: {
                 name: 'İnşaat Kimyasalları',

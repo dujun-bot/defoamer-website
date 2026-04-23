@@ -22,7 +22,7 @@ export const zh = {
         badge: '工业级消泡解决方案',
         line1: '控制泡沫',
         line2: '提升品质',
-        subtitle: 'SinoFoam Technology 提供精密工程有机硅、聚醚和脂肪醇消泡剂，受到全球 50+ 国家制造商的信赖。',
+        subtitle: '提供精密工程有机硅、聚醚和脂肪醇消泡剂，受到全球 50+ 国家制造商的信赖。',
         cta1: '探索产品',
         cta2: '申请免费样品 →',
     },
@@ -183,10 +183,9 @@ export const zh = {
                 name: '造纸 & 纸浆',
                 description: '控制白水系统、制浆和表面施胶中的泡沫。CS和SX系列在实际造纸白水中按工艺温度进行测试。',
             },
-            'industrial-cleaning': {
-                name: '工业清洗',
-                description:
-                    '防止碱性清洗液、钢板清洗机和CIP系统中的泡沫溢出。SX-230和SX-460在高剪切条件下提供快速持久的消泡效果。',
+            'daily-chemicals': {
+                name: '日化 & 个护',
+                description: '有效消除洗涤剂、化妆品及个人护理产品在乳化、搅拌、灌装过程中产生的泡沫。SX-530和SX-230适用于含表面活性剂的日化配方体系。',
             },
             metalworking: {
                 name: '金属加工液',
@@ -196,13 +195,13 @@ export const zh = {
                 name: '污水处理',
                 description: '在曝气池、生物处理系统和渗滤液处理中快速消泡。S-2060消泡速度>70 ml/s，应对最苛刻工况。',
             },
-            fermentation: {
-                name: '发酵 & 食品',
-                description: '抑制制糖、发酵罐和食品级水性系统中的泡沫。CS-2020覆盖全发酵温度范围（20–120°C）。',
+            coatings: {
+                name: '涂料 & 油漆',
+                description: '控制水性涂料、乳胶漆和建筑涂料生产中的泡沫。SX-530和SX-460在水性分散体系中提供优异的消泡和抑泡性能。',
             },
-            desulfurization: {
-                name: '电厂脱硫',
-                description: '在碱性浆液条件下的湿式烟气脱硫（FGD）系统中高效消泡。SX-460在pH 12+条件下稳定表现。',
+            petroleum: {
+                name: '石油 & 能源',
+                description: '在石油开采、炼化加工和燃料脱硫工艺中高效消泡。SX-460在高碱性高温环境（pH 12+）下稳定工作，适用于湿法脱硫系统。',
             },
             construction: {
                 name: '建筑化学品',

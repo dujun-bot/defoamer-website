@@ -17,11 +17,11 @@ import type { Application } from '../../types';
 
 const ICONS: Record<string, React.ReactNode> = {
     'paper-pulp': <ExperimentOutlined />,
-    'industrial-cleaning': <ToolOutlined />,
+    'daily-chemicals': <ToolOutlined />,
     metalworking: <ControlOutlined />,
     wastewater: <FilterOutlined />,
-    fermentation: <CodeSandboxOutlined />,
-    desulfurization: <ThunderboltOutlined />,
+    coatings: <CodeSandboxOutlined />,
+    petroleum: <ThunderboltOutlined />,
     construction: <HomeOutlined />,
     textiles: <ScissorOutlined />,
 };
@@ -32,36 +32,58 @@ function AppCard({ app, index }: { app: Application; index: number }) {
         <AnimatedSection delay={index * 0.06}>
             <motion.div
                 whileHover={{ y: -4, boxShadow: '0 20px 40px rgba(0,0,0,0.08)' }}
-                className="group bg-white rounded-2xl p-6 border border-gray-100 cursor-default h-full transition-shadow duration-300"
+                className="group bg-white rounded-2xl border border-gray-100 cursor-default h-full transition-shadow duration-300 overflow-hidden flex flex-col"
             >
-                {/* Icon */}
-                <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center text-xl text-white mb-4 transition-transform duration-300 group-hover:scale-110"
-                    style={{ background: app.iconBg }}
-                >
-                    {ICONS[app.id] ?? <ExperimentOutlined />}
-                </div>
-
-                <h3 className="text-base font-bold text-gray-900 mb-2">{t(`applications.items.${app.id}.name`)}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed mb-4">
-                    {t(`applications.items.${app.id}.description`)}
-                </p>
-
-                {/* Product tags */}
-                <div className="flex flex-wrap gap-2">
-                    {app.products.map((p) => (
-                        <span
-                            key={p}
-                            className="px-3 py-1 text-xs font-semibold rounded-full"
-                            style={{
-                                background: `${app.iconBg}18`,
-                                color: app.iconBg,
-                                border: `1px solid ${app.iconBg}30`,
-                            }}
+                {/* Industry photo */}
+                {app.image && (
+                    <div className="relative h-40 overflow-hidden shrink-0">
+                        <img
+                            src={app.image}
+                            alt={t(`applications.items.${app.id}.name`)}
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        {/* Icon badge */}
+                        <div
+                            className="absolute bottom-3 left-3 w-9 h-9 rounded-lg flex items-center justify-center text-sm text-white shadow-md"
+                            style={{ background: app.iconBg }}
                         >
-                            {p}
-                        </span>
-                    ))}
+                            {ICONS[app.id] ?? <ExperimentOutlined />}
+                        </div>
+                    </div>
+                )}
+
+                <div className="p-5 flex flex-col flex-1">
+                    {/* Icon (fallback when no image) */}
+                    {!app.image && (
+                        <div
+                            className="w-12 h-12 rounded-xl flex items-center justify-center text-xl text-white mb-4 transition-transform duration-300 group-hover:scale-110"
+                            style={{ background: app.iconBg }}
+                        >
+                            {ICONS[app.id] ?? <ExperimentOutlined />}
+                        </div>
+                    )}
+
+                    <h3 className="text-base font-bold text-gray-900 mb-2">{t(`applications.items.${app.id}.name`)}</h3>
+                    <p className="text-sm text-gray-500 leading-relaxed mb-4 flex-1">
+                        {t(`applications.items.${app.id}.description`)}
+                    </p>
+
+                    {/* Product tags */}
+                    <div className="flex flex-wrap gap-2">
+                        {app.products.map((p) => (
+                            <span
+                                key={p}
+                                className="px-3 py-1 text-xs font-semibold rounded-full"
+                                style={{
+                                    background: `${app.iconBg}18`,
+                                    color: app.iconBg,
+                                    border: `1px solid ${app.iconBg}30`,
+                                }}
+                            >
+                                {p}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </motion.div>
         </AnimatedSection>

@@ -123,10 +123,10 @@ export const pt = {
                 description:
                     'Controle espuma em sistemas de água branca, polpação e colagem superficial. As séries CS e SX são testadas com água branca real da indústria de papel nas temperaturas de processo.',
             },
-            'industrial-cleaning': {
-                name: 'Limpeza Industrial',
+            'daily-chemicals': {
+                name: 'Químicos do Dia a Dia',
                 description:
-                    'Evite transbordamento de espuma em limpadores alcalinos, lavadoras de chapas de aço e sistemas CIP. SX-230 e SX-460 oferecem controle rápido e sustentado em condições de alto cisalhamento.',
+                    'Desespumação eficaz nos processos de emulsificação, mistura e envase de detergentes, cosméticos e produtos de higiene pessoal. SX-530 e SX-230 são adequados para sistemas de formulação de química diária à base de tensoativos.',
             },
             metalworking: {
                 name: 'Fluidos de Usinagem',
@@ -138,15 +138,15 @@ export const pt = {
                 description:
                     'Controle rápido de espuma em tanques de aeração, sistemas de tratamento biológico e processamento de lixiviado. S-2060 com >70 ml/s de velocidade de desespumação atende às condições mais exigentes.',
             },
-            fermentation: {
-                name: 'Fermentação e Alimentos',
+            coatings: {
+                name: 'Tintas e Revestimentos',
                 description:
-                    'Suprima espuma no processamento de açúcar, tanques de fermentação e sistemas aquosos de grau alimentício. CS-2020 opera em toda a faixa de temperatura de fermentação (20–120°C).',
+                    'Controle espuma na produção de revestimentos à base de água, tintas de látex e tintas arquitetônicas. SX-530 e SX-460 oferecem excelente desespumação e inição da espuma em sistemas de dispersão à base de água.',
             },
-            desulfurization: {
-                name: 'Dessulfurização de Usina',
+            petroleum: {
+                name: 'Petróleo & Energia',
                 description:
-                    'Desespumação de alta eficiência em sistemas úmidos de dessulfurização de gases de combustão (FGD) em condições de pasta alcalina. SX-460 opera de forma confiável em pH 12+.',
+                    'Desespumação de alta eficiência em extração de petróleo, refino e dessulfurização de combustível. SX-460 opera estavelmente em ambientes altamente alcalinos e de alta temperatura (pH 12+), adequado para sistemas de dessulfurização FGD úmido.',
             },
             construction: {
                 name: 'Produtos Químicos para Construção',

@@ -34,6 +34,7 @@ export interface Application {
     products: string[];
     bgColor: string;
     iconBg: string;
+    image?: string;
 }
 
 export interface StatItem {

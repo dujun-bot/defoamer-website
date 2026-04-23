@@ -123,10 +123,10 @@ export const af = {
                 description:
                     'Beheer skuim in witwaterstelsels, pulpering en oppervlaktegrootte. Ons CS- en SX-reekse word getoets met werklike papierindustrie witwater by prosestemperature.',
             },
-            'industrial-cleaning': {
-                name: 'Industriële Skoonmaak',
+            'daily-chemicals': {
+                name: 'Daaglikse Chemikalieë',
                 description:
-                    'Verhoed skuimoorvloei in alkaliese reinigingsmiddels, staalplaatdassers en CIP-stelsels. SX-230 en SX-460 lewer vinnige en volgehoue beheer onder hoë-skuiftoestande.',
+                    'Doeltreffende ontskuiming in die emulsifisering, meng en verpakking van skoonmaakmiddels, kosmetika en persoonlike versorging. SX-530 en SX-230 is geskik vir oppervlakaktiewe daaglikse chemiese formuleringstelsels.',
             },
             metalworking: {
                 name: 'Metaalbewerkingsvloeistowwe',
@@ -138,15 +138,15 @@ export const af = {
                 description:
                     'Vinnige skuimbeheer in belugtingstanke, biologiese behandelingsstelsels en uitloopverwerking. S-2060 met >70 ml/s ontskuimingspoed hanteer die mees veeleisende toestande.',
             },
-            fermentation: {
-                name: 'Fermentasie en Voedsel',
+            coatings: {
+                name: 'Verwe en Lakke',
                 description:
-                    'Onderdruk skuim in suikerverwerking, fermentasietanke en voedselgraad waterige stelsels. CS-2020 werk oor die volle fermentasietemperatuurreeks (20–120°C).',
+                    'Beheer skuim in die vervaardiging van watergebaseerde verf, lateksverf en bouverwe. SX-530 en SX-460 bied uitstekende ontskuiming en skuimonderdrukking in watergedraagde dispersiestelsels.',
             },
-            desulfurization: {
-                name: 'Kragstasie Ontswaaweling',
+            petroleum: {
+                name: 'Petroleum en Energie',
                 description:
-                    'Hoëdoeltreffendheid ontskuiming in nat rookgasontswaaweling (FGD) stelsels onder alkaliese slikkery toestande. SX-460 werk betroubaar by pH 12+.',
+                    'Hoëdoeltreffendheid ontskuiming in petroleumontginning, raffinering en brandstofontswaweling. SX-460 werk stabiel in hoë-alkaliese, hoë-temperatuuromgewings en is geskik vir nat FGD-entswawelingsstelsels.',
             },
             construction: {
                 name: 'Konstruksie Chemikalieë',
