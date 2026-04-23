@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- TODO: Replace sinofoam.com with your actual domain after custom domain setup -->
+  <!-- Domain: foamgone.com -->
 
   <!-- Homepage -->
   <url>
-    <loc>https://sinofoam.com/</loc>
+    <loc>https://foamgone.com/</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <!-- Multilingual alternates -->
-    <xhtml:link rel="alternate" hreflang="en"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="zh"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="de"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="ar"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="hi"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="id"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="pt"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="ru"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="tr"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="vi"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="af"    href="https://sinofoam.com/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sinofoam.com/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="id"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="vi"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="af"    href="https://foamgone.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://foamgone.com/"/>
   </url>
 
   <!-- Company Profile -->
   <url>
-    <loc>https://sinofoam.com/#about</loc>
+    <loc>https://foamgone.com/#about</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -35,7 +35,7 @@
 
   <!-- Products -->
   <url>
-    <loc>https://sinofoam.com/#products</loc>
+    <loc>https://foamgone.com/#products</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -43,7 +43,7 @@
 
   <!-- Applications -->
   <url>
-    <loc>https://sinofoam.com/#applications</loc>
+    <loc>https://foamgone.com/#applications</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -51,7 +51,7 @@
 
   <!-- Technology -->
   <url>
-    <loc>https://sinofoam.com/#technology</loc>
+    <loc>https://foamgone.com/#technology</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -59,7 +59,7 @@
 
   <!-- Contact -->
   <url>
-    <loc>https://sinofoam.com/#contact</loc>
+    <loc>https://foamgone.com/#contact</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
