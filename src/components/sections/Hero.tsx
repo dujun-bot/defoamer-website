@@ -101,7 +101,7 @@ export function Hero() {
     return (
         <section
             id="hero"
-            className="relative min-h-screen flex items-center justify-center overflow-hidden"
+            className="relative min-h-screen flex items-start justify-center overflow-hidden pt-[88px] sm:pt-[96px] lg:items-center lg:pt-0"
             style={{ background: 'linear-gradient(160deg, #020d1e 0%, #050e1c 40%, #0a0520 100%)' }}
         >
             {/* Canvas glow */}
@@ -136,7 +136,7 @@ export function Hero() {
 
             {/* Content */}
             <motion.div
-                className="relative z-10 max-w-6xl mx-auto px-6 text-center"
+                className="relative z-10 max-w-6xl mx-auto px-6 pt-8 pb-16 text-center sm:pt-10 lg:py-0"
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
